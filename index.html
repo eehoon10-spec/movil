@@ -1,30 +1,106 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOVIL Lab</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>MOVIL | Electric Mobility & Vehicle Innovation Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>MOVIL Lab</h1>
-        <p>Mobility Innovation with Voltage & Power Electronics</p>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/movil_logo.png" alt="MOVIL Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">홈</a>
-        <a href="content.html">연구 내용</a>
-        <a href="gallery.html">갤러리</a>
-        <a href="contact.html">연락처</a>
-    </nav>
-    <main>
-        <h2>환영합니다</h2>
-        <p>이 페이지의 텍스트는 content.html에서 수정할 수 있습니다.</p>
-        <p>이미지는 images 폴더에 넣으면 gallery.html에 자동 표시됩니다.</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 MOVIL Lab. All rights reserved.</p>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Pioneering the Future of Electric Mobility</h1>
+            <p>Electric Mobility & Vehicle Innovation Lab</p>
+        </div>
+    </section>
+
+    <section id="research" class="research-section">
+        <h2>Our Research</h2>
+        <div class="research-grid">
+            <div class="research-item">
+                <i class="fas fa-microchip"></i>
+                <h3>Power Electronics Technology</h3>
+                <p>Advanced power conversion techniques for mobility applications, including inverters and converters.</p>
+            </div>
+            <div class="research-item">
+                <i class="fas fa-car-battery"></i>
+                <h3>Electric Vehicle Systems</h3>
+                <p>Cutting-edge research on electric vehicle chargers, battery management systems (BMS), and power systems.</p>
+            </div>
+            <div class="research-item">
+                <i class="fas fa-cogs"></i>
+                <h3>Hardware & Software Design</h3>
+                <p>Expertise in both hardware prototyping and embedded software development for mobility solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="members" class="members-section">
+        <h2>Our Members</h2>
+        <div class="members-grid">
+            <div class="member-card">
+                <img src="img/member1.jpg" alt="Member 1">
+                <div class="member-info">
+                    <h3>홍길동</h3>
+                    <p>석사과정</p>
+                    <span>연구 분야: 초고속 전기차 충전기 설계</span>
+                </div>
+            </div>
+            <div class="member-card">
+                <img src="img/member2.jpg" alt="Member 2">
+                <div class="member-info">
+                    <h3>김철수</h3>
+                    <p>석사과정</p>
+                    <span>연구 분야: 배터리 관리 시스템 (BMS)</span>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="partners" class="partners-section">
+        <h2>Our Partners</h2>
+        <div class="partners-grid">
+            <div class="partner-logo"><img src="img/partner_logo1.png" alt="Partner 1"></div>
+            <div class="partner-logo"><img src="img/partner_logo2.png" alt="Partner 2"></div>
+            <div class="partner-logo"><img src="img/partner_logo3.png" alt="Partner 3"></div>
+            </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> example@movil.ac.kr</p>
+                <p><i class="fas fa-map-marker-alt"></i> 서울특별시, xx대학교, xx관</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MOVIL. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
